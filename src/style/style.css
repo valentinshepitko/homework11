@@ -131,7 +131,7 @@ body {
 .hero-section__title {
     font-size: 44px;
     line-height: 55px;
-    color: black;
+    color: #2F281E;
 }
 
 .hero-section__content {
@@ -155,3 +155,53 @@ body {
 .hero-section-button__list {
     padding-top: 35px;
 }
+
+/*design tools*/
+
+.design-tools {
+    padding-top: 80px;
+}
+
+.design-tools__title-holder {
+    max-width: 540px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.design-tools__title {
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+    margin: 0 0 54px;
+}
+
+.design-tools__col-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    width: 25%;
+    padding-right: 45px;
+}
+
+.column__title {
+    color: #2F281E;
+}
+
+
+.column__icon-holder{
+    padding-bottom: 30px;
+}
+
+.column__text-holder {
+    padding: 13px 0 34px;
+    font-weight: 500;
+}
+
+.column:last-child {
+    padding-right: 0;
+}
+
