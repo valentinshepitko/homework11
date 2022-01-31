@@ -6,6 +6,7 @@
 
 body {
     font-family: Poppins, sans-serif;
+    color: #544837;
 }
 
 .container {
@@ -130,6 +131,7 @@ body {
 .hero-section__title {
     font-size: 44px;
     line-height: 55px;
+    color: black;
 }
 
 .hero-section__content {
