@@ -137,11 +137,11 @@ font-size: 44px;
 }
 
 .hero-section__content {
-    width: 518px;
+    width: 460px;
 }
 
 .hero-section__image {
     justify-content: right;
     width: 50%;
-    padding-top: 50px;
+    padding-top: 30px;
 }
