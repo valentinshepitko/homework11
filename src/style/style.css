@@ -133,7 +133,8 @@ font-family: Poppins, sans-serif;
 }
 
 h1 {
-font-size: 44px;
+    font-size: 44px;
+    line-height: 60px;
 }
 
 .hero-section__content {
@@ -145,4 +146,12 @@ font-size: 44px;
     justify-content: right;
     width: 50%;
     padding-top: 30px;
+}
+
+.hero-section__text_holder {
+    padding-top: 30px;
+}
+
+.hero-section-button__list {
+    padding-top: 45px;
 }
