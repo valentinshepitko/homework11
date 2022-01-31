@@ -138,6 +138,7 @@ font-size: 44px;
 
 .hero-section__content {
     width: 460px;
+    padding-bottom: 70px;
 }
 
 .hero-section__image {
