@@ -24,7 +24,6 @@ body {
 }
 
 /*menu*/
-
 .nav {
     padding-top: 30px;
 }
@@ -53,7 +52,6 @@ body {
 }
 
 /*button*/
-
 .button__list {
     list-style: none;
     display: flex;
@@ -113,7 +111,6 @@ body {
     text-decoration: none;
 }
 
-
 .button__item-link-video{
     padding-top: 10px;
     margin-left: 30px;
@@ -135,7 +132,6 @@ body {
 }
 
 /*hero section*/
-
 .hero-section .container {
     display: flex;
     flex-wrap: wrap;
@@ -169,11 +165,9 @@ body {
 
 .hero-section-button__list {
     padding-top: 35px;
-
 }
 
 /*design tools*/
-
 .design-tools {
    padding: 80px 0 30px;
 }
@@ -207,7 +201,6 @@ body {
     color: #2F281E;
 }
 
-
 .column__icon-holder{
     padding-bottom: 30px;
 }
@@ -221,9 +214,7 @@ body {
     padding-right: 0;
 }
 
-
-/*design professionals*/
-
+/*design professionals-marketers*/
 .flex-section .container {
     display: flex;
     flex-wrap: wrap;
@@ -258,9 +249,7 @@ body {
     color: #2F281E;
 }
 
-
 /*product manager*/
-
 .managers .container {
     display: flex;
     flex-wrap: wrap;
