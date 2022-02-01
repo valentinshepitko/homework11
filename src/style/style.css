@@ -252,6 +252,10 @@ body {
     justify-content: space-between;
 }
 
+.managers {
+    padding: 100px 0 30px;
+}
+
 .managers__text{
     width: 485px;
     padding-top: 60px;
@@ -263,10 +267,23 @@ body {
 
 .managers__content-list-item {
     padding-bottom: 30px;
+    padding-left: 60px;
     font-weight: 500;
     font-size: 16px;
+    position: relative;
 }
 
-.managers {
-    padding: 100px 0 30px;
+.managers__content-list-item:before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0;
+    top: 5px;
+    background: #FF9900;
+    border-radius: 10px;
 }
+
+
+
+
