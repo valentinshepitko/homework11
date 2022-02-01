@@ -113,11 +113,26 @@ body {
     text-decoration: none;
 }
 
+
 .button__item-link-video{
     padding-top: 10px;
     margin-left: 30px;
 }
 
+.button__item-link-video {
+    position: relative;
+}
+
+.button__item-link-video:before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 11px;
+    border-style: solid;
+    border-width: 10px 0 10px 17px;
+    border-color: transparent transparent transparent #ff9900;
+
+}
 
 /*hero section*/
 
@@ -228,13 +243,13 @@ body {
 }
 
 .flex-section__content {
-    padding-bottom: 25px;
+    padding: 10px 0 25px;
     font-weight: 500;
     font-size: 16px;
 }
 
 .flex-section__title {
-    padding-bottom: 22px;
+    padding: 0 0 10px;
     color: #2F281E;
     font-size: 36px;
 }
@@ -281,9 +296,19 @@ body {
     left: 0;
     top: 5px;
     background: #FF9900;
-    border-radius: 10px;
+    border-radius: 14px;
 }
 
-
+.managers__content-list-item:after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    width: 15px;
+    height: 7px;
+    transform: rotate(-45deg);
+}
 
 
