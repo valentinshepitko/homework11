@@ -228,12 +228,41 @@ body {
 
 .flex-section__content {
     padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .flex-section__title {
     padding-bottom: 22px;
+    color: #2F281E;
 }
 
 .flex-section__content-title {
     color: #2F281E;
+}
+
+
+
+
+/*product manager*/
+
+.managers .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.managers__text{
+    width: 485px;
+    padding-top: 60px;
+}
+
+.managers__content-list {
+    list-style: none;
+}
+
+.managers__content-list-item {
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
 }
