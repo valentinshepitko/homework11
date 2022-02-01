@@ -154,12 +154,13 @@ body {
 
 .hero-section-button__list {
     padding-top: 35px;
+
 }
 
 /*design tools*/
 
 .design-tools {
-    padding-top: 80px;
+   padding: 80px 0 30px;
 }
 
 .design-tools__title-holder {
@@ -215,7 +216,7 @@ body {
 }
 
 .flex-section {
-    padding-top: 100px;
+   padding: 100px 0 30px;
 }
 
 .flex-section__text {
@@ -242,8 +243,6 @@ body {
 }
 
 
-
-
 /*product manager*/
 
 .managers .container {
@@ -265,4 +264,8 @@ body {
     padding-bottom: 30px;
     font-weight: 500;
     font-size: 16px;
+}
+
+.managers {
+    padding: 100px 0 30px;
 }
