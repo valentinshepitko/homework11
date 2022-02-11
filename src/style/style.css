@@ -301,3 +301,84 @@ body {
 }
 
 
+
+/*footer*/
+
+.footer{
+    padding: 150px 0 60px;
+}
+
+.footer__logo-wrapper {
+    padding-bottom: 170px;
+}
+
+
+.footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__column-holder{
+    margin-left: 50px;
+}
+
+.footer__title {
+    color: #2F281E;
+    font-size: 20px;
+    font-weight: 700;
+
+    display: block;
+    padding-bottom: 35px;
+}
+
+.footer__title--form{
+    color: #2F281E;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 250px;
+    display: block;
+
+}
+
+.footer__item{
+    padding-bottom: 10px;
+}
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #2F281E;
+    transition: color ease-in-out 0.3s;
+}
+
+.footer__link:hover {
+    color: #FF9900;
+}
+
+
+.footer__column-form-submit{
+    padding: 30px 0 15px;
+}
+
+.footer__input {
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    border-radius: 8px;
+}
+
+::placeholder{
+    color: #BCD0E5;
+    padding-left: 15px;
+}
+
+:focus {
+    border: 2px solid #FF9900;
+    outline: none;
+}
